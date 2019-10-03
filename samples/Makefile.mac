@@ -1,0 +1,19 @@
+LIB = nxsamples.so
+
+CC = gcc
+CFLAGS = -g -Wall -fPIC -I../include
+
+.SUFFIXES: .c .o
+
+OBJS = hello.o \
+       tpl_hello.o \
+       tpl_hello2.o \
+       session.o
+
+$(LIB): $(OBJS)
+	$(CC) -bundle -flat_namespace -undefined suppress -o $@ $(OBJS)
+
+$(OBJS): ../include/nestalib.h
+
+clean:
+	rm -f $(LIB) *.o *~

@@ -1,0 +1,20 @@
+LIB = nxsamples.so
+
+CC = gcc
+CFLAGS = -g -Wall -fPIC -I../include -DHAVE_ORACLE_OCI -DUSE_ORACLE_OCI -I/home/yamamoto/oracle/instantclient_11_1/sdk/include/
+
+.SUFFIXES: .c .o
+
+OBJS = hello.o \
+       tpl_hello.o \
+       tpl_hello2.o \
+       oci_univ.o \
+       session.o
+
+$(LIB): $(OBJS)
+	$(CC) -shared -lclntsh -o $@ $(OBJS)
+
+$(OBJS): ../include/nestalib.h
+
+clean:
+	rm -f $(LIB) *.o *~

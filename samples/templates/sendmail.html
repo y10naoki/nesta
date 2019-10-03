@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>メール送信</title>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+</head>
+<body>
+<div align="center">
+<h1>メール送信</h1>
+<form method="post" enctype="multipart/form-data" action="/samples/sendmail">
+<table border="0">
+  <tr>
+    <td>SMTP:</td>
+    <td><input type="input" name="smtp" size="40" maxlength="60"></td>
+    <td align="right">PORT:&nbsp;<input type="input" name="port" size="5" maxlength="5" value="25"></td>
+  </tr>
+  <br>
+  <tr>
+    <td>To:</td>
+    <td colspan="2"><input type="input" name="to" size="80" maxlength="100"></td>
+  </tr>
+  <tr>
+    <td>From:</td>
+    <td colspan="2"><input type="input" name="from" size="80" maxlength="100"></td>
+  </tr>
+  <tr>
+    <td>Cc:</td>
+    <td colspan="2"><input type="input" name="cc" size="80" maxlength="100"></td>
+  </tr>
+  <tr>
+    <td>Bcc:</td>
+    <td colspan="2"><input type="input" name="bcc" size="80" maxlength="100"></td>
+  </tr>
+  <br>
+  <tr>
+    <td>件名:</td>
+    <td colspan="2"><input type="input" name="subject" size="80" maxlength="100">
+  </tr>
+  <tr>
+    <td colspan="3">メール本文</td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <textarea cols="55" rows="5" name="message"></textarea>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3">添付ファイル1:&nbsp;<input type="file" name="attachfile1"></td>
+  </tr>
+  <tr>
+    <td colspan="3">添付ファイル2:&nbsp;<input type="file" name="attachfile2"></td>
+  </tr>
+  <tr><td colspan="3">&nbsp;</td></tr>
+  <tr align="center">
+    <td colspan="3"><input type="submit" name="sendmail" value="メール送信"></td>
+  </tr>
+</table>
+</form>
+</div>
+</body>
+</html>

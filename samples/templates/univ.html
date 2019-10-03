@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>日本の大学一覧</title>
+<META http-equiv="Content-Type" content="text/html; charset={$encoding}">
+</head>
+<body>
+<h1>日本の大学一覧</h1>
+<table width="90%" border="0" align="center" cellpadding="2" cellspacing="2" bgcolor="#CCCCFF">
+  <tr>
+    <td nowrap bgcolor="#EFEFEF"> 
+      <div align="center">学校名</div>
+    </td>
+    <td nowrap bgcolor="#EFEFEF"> 
+      <div align="center">学校名カナ</div>
+    </td>
+    <td nowrap bgcolor="#EFEFEF"> 
+      <div align="center">都道府県</div>
+    </td>
+    <td nowrap bgcolor="#EFEFEF"> 
+      <div align="center">URL</div>
+    </td>
+  </tr>
+<!--%repeat-->
+  <tr>
+    <td bgcolor="#FFFFFF">{$name_list}</td>
+    <td bgcolor="#FFFFFF">{$kana_list}</td>
+    <td bgcolor="#FFFFFF">{$pref_list}</td>
+    <td bgcolor="#FFFFFF"><a href="{$url_list}">{$url_list}</td>
+  </tr>
+<!--%repeat-end-->
+</table>
+</body>
+</html>
