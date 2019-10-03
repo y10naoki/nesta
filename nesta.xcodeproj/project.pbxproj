@@ -80,6 +80,7 @@
 		CED1EF302345B45E001692D3 = {
 			isa = PBXGroup;
 			children = (
+				CED1EF5B2345BA19001692D3 /* conf */,
 				CED1EF7C2345EA50001692D3 /* public_html */,
 				CED1EF7B2345EA50001692D3 /* samples */,
 				CED1EF692345E9D0001692D3 /* autotools */,
@@ -100,7 +101,6 @@
 		CED1EF3B2345B45E001692D3 /* nesta */ = {
 			isa = PBXGroup;
 			children = (
-				CED1EF5B2345BA19001692D3 /* conf */,
 				CED1EF5F2345BA19001692D3 /* command.c */,
 				CED1EF562345BA18001692D3 /* config.c */,
 				CED1EF572345BA19001692D3 /* config.h */,
