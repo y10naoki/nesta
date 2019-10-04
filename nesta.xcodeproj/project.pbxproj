@@ -84,7 +84,7 @@
 				CED1EF7C2345EA50001692D3 /* public_html */,
 				CED1EF7B2345EA50001692D3 /* samples */,
 				CED1EF692345E9D0001692D3 /* autotools */,
-				CED1EF3B2345B45E001692D3 /* nesta */,
+				CED1EF3B2345B45E001692D3 /* src */,
 				CED1EF3A2345B45E001692D3 /* Products */,
 				CED1EF432345B502001692D3 /* Frameworks */,
 			);
@@ -98,7 +98,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CED1EF3B2345B45E001692D3 /* nesta */ = {
+		CED1EF3B2345B45E001692D3 /* src */ = {
 			isa = PBXGroup;
 			children = (
 				CED1EF5F2345BA19001692D3 /* command.c */,
@@ -112,7 +112,7 @@
 				CED1EF5D2345BA19001692D3 /* main.c */,
 				CED1EF672345C919001692D3 /* srelay_server.c */,
 			);
-			path = nesta;
+			path = src;
 			sourceTree = "<group>";
 		};
 		CED1EF432345B502001692D3 /* Frameworks */ = {
