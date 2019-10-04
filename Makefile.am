@@ -1,14 +1,15 @@
 noinst_PROGRAMS=nesta
-nesta_SOURCES=main.c \
-              config.c \
-              dynlib.c \
-              http_server.c \
-              document.c \
-              command.c \
-              log.c \
-              srelay_server.c \
-              http_server.h \
-              nesta.vcproj
+
+nesta_SOURCES=src/main.c \
+              src/config.c \
+              src/dynlib.c \
+              src/http_server.c \
+              src/document.c \
+              src/command.c \
+              src/log.c \
+              src/srelay_server.c \
+              src/http_server.h
+
 nesta_CFLAGS = -I. -I@NESTALIB_HEADERS@
 
 EXTRA_DIR = conf logs public_html samples

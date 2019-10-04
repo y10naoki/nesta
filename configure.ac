@@ -4,7 +4,7 @@
 AC_PREREQ(2.59)
 AC_INIT(nesta, 1.1.0, y10naoki@gmail.com)
 AM_INIT_AUTOMAKE
-AC_CONFIG_SRCDIR([http_server.c])
+AC_CONFIG_SRCDIR([src/http_server.c])
 AC_CONFIG_HEADER([config.h])
 
 # $host

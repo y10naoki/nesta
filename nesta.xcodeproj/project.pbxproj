@@ -34,7 +34,6 @@
 		CED1EF392345B45E001692D3 /* nesta */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = nesta; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED1EF442345B502001692D3 /* libnesta-0.9.5.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libnesta-0.9.5.0.dylib"; path = "../../../../usr/local/lib/libnesta-0.9.5.0.dylib"; sourceTree = "<group>"; };
 		CED1EF562345BA18001692D3 /* config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = config.c; sourceTree = "<group>"; };
-		CED1EF572345BA19001692D3 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		CED1EF582345BA19001692D3 /* http_server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http_server.h; sourceTree = "<group>"; };
 		CED1EF592345BA19001692D3 /* document.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = document.c; sourceTree = "<group>"; };
 		CED1EF5A2345BA19001692D3 /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
@@ -103,7 +102,6 @@
 			children = (
 				CED1EF5F2345BA19001692D3 /* command.c */,
 				CED1EF562345BA18001692D3 /* config.c */,
-				CED1EF572345BA19001692D3 /* config.h */,
 				CED1EF592345BA19001692D3 /* document.c */,
 				CED1EF5C2345BA19001692D3 /* dynlib.c */,
 				CED1EF5E2345BA19001692D3 /* http_server.c */,
