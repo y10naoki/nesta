@@ -62,6 +62,7 @@
 		CED1EF7A2345E9FB001692D3 /* NEWS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
 		CED1EF7B2345EA50001692D3 /* samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = samples; sourceTree = "<group>"; };
 		CED1EF7C2345EA50001692D3 /* public_html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = public_html; sourceTree = "<group>"; };
+		CEEB2471234B1667005BFBEB /* logs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = logs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		CED1EF302345B45E001692D3 = {
 			isa = PBXGroup;
 			children = (
+				CEEB2471234B1667005BFBEB /* logs */,
 				CED1EF5B2345BA19001692D3 /* conf */,
 				CED1EF7C2345EA50001692D3 /* public_html */,
 				CED1EF7B2345EA50001692D3 /* samples */,
